@@ -14,7 +14,8 @@ body{
   padding-top: 50px;
 }
 .skill-set .badge{
-  margin: 0 5px;
+  margin: 5px;
+    padding: 15px;
 }
 .language-set .progress{
   height: 25px;
@@ -468,4 +469,10 @@ a.btn-social,
 .btn-email:hover
 {
   background-color: #6bd079;
+}
+.card.bg-primary,.card.bg-primary .text-muted,.card.bg-primary a{
+    color: white !important;
+}
+.card.bg-primary .card-title{
+  font-weight: 700;
 }
